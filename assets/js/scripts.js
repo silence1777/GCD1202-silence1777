@@ -237,9 +237,9 @@ jQuery(function ($) {
     (function () {
     
     /* Vimeo API: http://developer.vimeo.com/player/js-api */
-    
+        return void 0;
         var iframe = document.getElementById('nofocusvideo');
-        // $f == Froogaloop
+        $f == Froogaloop
         var player = $f(iframe);
 
         $('.modal').on('hidden.bs.modal', function () {
